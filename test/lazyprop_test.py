@@ -26,6 +26,10 @@ class LazypropTest(unittest.TestCase):
         self.assertEqual(1, self._p.counter)
         self.assertEqual(1, self._p.counter)
 
+    def test_del_doest_exist(self):
+        del self._p.counter
+        self.assertEqual(1, self._p.counter)
+
     def test_del(self):
         self.assertEqual(1, self._p.counter)
         del self._p.counter
