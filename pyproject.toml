@@ -1,3 +1,6 @@
+[project]
+requires-python = ">=3.8"
+
 [tool.pytest.ini_options]
 testpaths = ["test"]
 
