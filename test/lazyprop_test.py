@@ -2,7 +2,7 @@ import unittest
 from lazyprop import lazyprop
 
 
-class LazypropClass(object):
+class LazypropClass:
     def __init__(self):
         self._counter = 0
 

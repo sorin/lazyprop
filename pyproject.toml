@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+testpaths = ["test"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+extend-ignore = ["E203"]
