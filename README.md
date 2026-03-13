@@ -3,6 +3,8 @@ Python @lazyprop decorator
 Implementation of http://en.wikipedia.org/wiki/Lazy_initialization
 Based on http://stackoverflow.com/a/3013910 - extended to support invalidation / setting, fully unit tested
 
+**Note:** Python 3.8+ has a built-in alternative, `functools.cached_property`. Use that unless you need to overwrite the value.
+
 
 Basic usage - very_expensive_calculation() is only called the first time, the result is cached and returned for subsequent calls
 
